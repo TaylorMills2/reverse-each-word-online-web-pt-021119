@@ -1,1 +1,1 @@
-reverse_each_word=["Hello,how are you?"]
+reverse_each_word = ["Hello,how are you?"]
