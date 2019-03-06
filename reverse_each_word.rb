@@ -1,7 +1,7 @@
 reverse_each_word = ["Hello,how are you?"]
 
 def reverse(each)
- words.each do |words|
+ each.each do |each|
  puts "Reverse #{each} words!"
   end
  end
