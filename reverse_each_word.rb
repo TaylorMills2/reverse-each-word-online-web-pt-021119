@@ -1,13 +1,6 @@
-reverse_each_word = ["Hello there,and how are you?"]
-
-def reverse(words)
- words.each do |word|
- puts "Reverse each #{word} in the sentence!"
- end
+def reverse_each_word(sentence)
+  reversed = sentence.split(" ").collect do |word|
+  word.reverse
 end
- 
-def reverse(words)
- words.collect do |word|
- "Reverse each #{word} in the sentence!"
- end
+  reversed.join(" ")
 end
